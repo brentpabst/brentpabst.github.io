@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  background-attachment: fixed;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+main .container {
+  padding: 8rem 0 0 0;
+}
+
+footer {
+  padding: 3rem 0;
+
+  text-transform: uppercase;
+}
+
+.social li {
+  display: inline;
+  padding-right: .75rem;
+}
+
+.name {
+  padding: 1rem 0;
+}
+
+#recent h1 {
+  font-weight: 200;
+}
